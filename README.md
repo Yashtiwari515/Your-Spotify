@@ -20,6 +20,7 @@ A modern and elegant music player app built with React Native (Expo), featuring 
 
 
 
+
 ## 🧠 Tech Stack
 
 | Technology                         | Purpose                      |
@@ -29,6 +30,7 @@ A modern and elegant music player app built with React Native (Expo), featuring 
 | **@react-native-community/slider** | Progress bar for audio       |
 | **react-native-vector-icons**      | Icon library for buttons     |
 | **TypeScript**                     | Type safety and cleaner code |
+
 
 
 ## 📂 Folder Structure
@@ -62,6 +64,8 @@ yourspotify/
 
 ```
 
+
+
 ## ⚙️ Installation & Setup
 
 
@@ -92,6 +96,8 @@ npx expo start
 ```
 Then scan the QR code using the Expo Go app (Android/iOS).
 
+
+
 ## 🎶 Songs Included (Local)
 
 | # | Title               | Artist                       |
@@ -103,6 +109,8 @@ Then scan the QR code using the Expo Go app (Android/iOS).
 | 5 | Besharam Rang       | Vishal & Shekhar, Shilpa Rao |
 
 All tracks are bundled as local MP3 files inside /assets/audio/.
+
+
 
 ## 🧩 Future Improvements
 
@@ -117,4 +125,5 @@ All tracks are bundled as local MP3 files inside /assets/audio/.
 ### 🌓 Add light/dark theme toggle
 
 
-## Made by Yash Tiwari with 💖
+
+Made by Yash Tiwari with 💖
