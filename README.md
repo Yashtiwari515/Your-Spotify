@@ -49,14 +49,13 @@ yourspotify/
 │   └── constants.ts             # Local playlist (5 hardcoded songs)
 │
 ├── assets/
-│   ├── audio/                   # Local MP3 song files
-│   │   ├── one.mp3
-│   │   ├── two.mp3
-│   │   ├── three.mp3
-│   │   ├── four.mp3
-│   │   └── five.mp3
-│   └── images/                  # Optional local posters or icons
-│
+│   |── audio/                   # Local MP3 song files
+│      ├── one.mp3
+│      ├── two.mp3
+│      ├── three.mp3
+│      ├── four.mp3
+│      └── five.mp3
+│   
 ├── package.json
 ├── app.json
 ├── tsconfig.json
