@@ -1,50 +1,120 @@
-# Welcome to your Expo app 👋
+# 🎵 YourSpotify — Expo Music Player
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern and elegant music player app built with React Native (Expo), featuring local audio playback, real-time controls, auto-play transitions, and smooth animations — all running directly in Expo Go using the expo-av module.
 
-## Get started
+## 🚀 Features
 
-1. Install dependencies
+### 🎧 Play / Pause / Next / Previous song controls
+
+### 🔄 Auto-play next track after one finishes
+
+### ⏱️ Seek bar for progress tracking and scrubbing
+
+### 🖼️ Dynamic album art & song info display
+
+### 💾 Local MP3 files stored inside the app
+
+### 🪄 Works in Expo Go (no native build required)
+
+### 🧠 Built using clean, modular TypeScript components
+
+
+
+## 🧠 Tech Stack
+
+| Technology                         | Purpose                      |
+| ---------------------------------- | ---------------------------- |
+| **React Native + Expo**            | Cross-platform app framework |
+| **expo-av**                        | Audio playback and control   |
+| **@react-native-community/slider** | Progress bar for audio       |
+| **react-native-vector-icons**      | Icon library for buttons     |
+| **TypeScript**                     | Type safety and cleaner code |
+
+
+## 📂 Folder Structure
+
+```bash
+yourspotify/
+│
+├── app/
+│   ├── index.tsx                # App entry point
+│   ├── screens/
+│   │   └── MusicPlayer.tsx      # Core music player logic
+│   ├── components/
+│   │   ├── ControlCenter.tsx    # Play/Pause/Next/Prev buttons
+│   │   ├── SongInfo.tsx         # Song title, artist, album info
+│   │   └── SongSlider.tsx       # Seekbar with time display
+│   └── constants.ts             # Local playlist (5 hardcoded songs)
+│
+├── assets/
+│   ├── audio/                   # Local MP3 song files
+│   │   ├── one.mp3
+│   │   ├── two.mp3
+│   │   ├── three.mp3
+│   │   ├── four.mp3
+│   │   └── five.mp3
+│   └── images/                  # Optional local posters or icons
+│
+├── package.json
+├── app.json
+├── tsconfig.json
+└── README.md
+
+```
+
+## ⚙️ Installation & Setup
+
+
+1️⃣ Clone the repository
+
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/YourSpotify.git
+
+   cd YourSpotify
+
+   ```
+
+2️⃣ Install dependencies
 
    ```bash
    npm install
    ```
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
+3️⃣ Install Expo packages
 
 ```bash
-npm run reset-project
+npx expo install expo-av @react-native-community/slider react-native-vector-icons
 ```
+4️⃣ Start the app
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+```bash
+npx expo start
+```
+Then scan the QR code using the Expo Go app (Android/iOS).
 
-## Learn more
+## 🎶 Songs Included (Local)
 
-To learn more about developing your project with Expo, look at the following resources:
+| # | Title               | Artist                       |
+| - | ------------------- | ---------------------------- |
+| 1 | Maan Meri Jaan      | King                         |
+| 2 | Raataan Lambiyan    | Asees Kaur, Tanishk Bagchi   |
+| 3 | Kesariya            | Arijit Singh                 |
+| 4 | Pal Pal Dil Ke Paas | Kishore Kumar                |
+| 5 | Besharam Rang       | Vishal & Shekhar, Shilpa Rao |
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+All tracks are bundled as local MP3 files inside /assets/audio/.
 
-## Join the community
+## 🧩 Future Improvements
 
-Join our community of developers creating universal apps.
+### 🌐 Add online API integration (JioSaavn / Spotify)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+### 💖 Add Favorites and Recently Played sections
+
+### 🔊 Add Shuffle and Repeat features
+
+### 📁 Add custom playlists
+
+### 🌓 Add light/dark theme toggle
+
+
+## Made by Yash Tiwari with 💖
